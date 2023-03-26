@@ -22,11 +22,6 @@ body, html {
   box-sizing: border-box;
 }
 
-.bg-image {
-  /* Add the blur effect */
-  filter: blur(2x);
-  -webkit-filter: blur(2px);
-}
 
 img {
     height: 100%;
@@ -44,7 +39,7 @@ img {
   border: 1px solid #f1f1f1;
   border-radius: 20px;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -52,6 +47,11 @@ img {
   padding: 20px;
   text-align: center;
 }
+
+.bg-text-bawah {
+  top: 70%;
+}
+
 
 .btn-home {
   background-color: #4CAF50; /* Green */
@@ -78,16 +78,23 @@ h2 {
 </head>
 <body>
 
-<div class="bg-image">
+  <div class="bg-image">
     <img src="Assets/img/KEP Angga-Page-1.jpg" alt="">
-</div>
-
-<div class="bg-text">
-  <h2>"Dan setiap Orang yang mengetok, Baginya pintu dibukakan"</h2>
-  <h1 style="font-size:40px;">Matius 7:8</h1>
-  <a href="/LandingPage.html" class="btn-home"> <i class="uil uil-envelope-check"> </i>Open The Door
-  </a>
-</div>
+  </div>
+  
+  <div class="bg-text">
+    <h2 style="font-size: 25px;">"Dan setiap Orang yang mengetok, Baginya pintu dibukakan"</h2>
+    <h1 style="font-size:25px;">Matius 7:8</h1>
+    <a href="/LandingPage.html" class="btn-home"> <i class="uil uil-envelope-check"> </i>Open The Door </a>
+  </div>
+  
+  <div class="bg-text bg-text-bawah">
+    <h2>Kepada Yth: </h2>
+    <h1 style="font-size:25px;">Bapak-Ibu, Saudara/I, OMK </h1>
+    <h1 style="font-size:25px;">Yang Terkasih Dalam Nama </h1>
+    <h1 style="font-size:25px;">Kristus Yesus</h1>
+  </div>  
 
 </body>
 </html>
+
